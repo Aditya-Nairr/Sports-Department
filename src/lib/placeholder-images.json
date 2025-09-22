@@ -15,121 +15,121 @@
     {
       "id": "sport-basketball",
       "description": "Image for basketball.",
-      "imageUrl": "https://picsum.photos/seed/basketball/600/400",
+      "imageUrl": "/images/Basketball.jpg",
       "imageHint": "basketball hoop"
     },
     {
       "id": "sport-football",
       "description": "Image for football.",
-      "imageUrl": "https://picsum.photos/seed/soccer/600/400",
+      "imageUrl": "/images/Football.jpg",
       "imageHint": "soccer ball"
     },
     {
       "id": "sport-cricket",
       "description": "Image for cricket.",
-      "imageUrl": "https://picsum.photos/seed/cricketstadium/600/400",
+      "imageUrl": "/images/Cricket.jpg",
       "imageHint": "cricket bat"
     },
     {
       "id": "sport-tennis",
       "description": "Image for tennis.",
-      "imageUrl": "https://picsum.photos/seed/tennisball/600/400",
+      "imageUrl": "/images/Tennis.jpg",
       "imageHint": "tennis racket"
     },
     {
       "id": "sport-swimming",
       "description": "Image for swimming.",
-      "imageUrl": "https://picsum.photos/seed/swimmer/600/400",
+      "imageUrl": "/images/Swimming.jpg",
       "imageHint": "swimming lane"
     },
     {
       "id": "sport-athletics",
       "description": "Image for athletics.",
-      "imageUrl": "https://picsum.photos/seed/trackandfield/600/400",
+      "imageUrl": "/images/Athlete.jpg",
       "imageHint": "running track"
     },
     {
       "id": "sport-volleyball",
       "description": "Image for volleyball.",
-      "imageUrl": "https://picsum.photos/seed/volleyballball/600/400",
+      "imageUrl": "/images/Volleyball.jpg",
       "imageHint": "volleyball game"
     },
     {
       "id": "sport-badminton",
       "description": "Image for badminton.",
-      "imageUrl": "https://picsum.photos/seed/shuttlecock/600/400",
+      "imageUrl": "/images/Badminton.jpg",
       "imageHint": "badminton racket"
     },
     {
       "id": "sport-hockey",
       "description": "Image for hockey.",
-      "imageUrl": "https://picsum.photos/seed/fieldhockey/600/400",
+      "imageUrl": "/images/Hockey.jpg",
       "imageHint": "field hockey"
     },
     {
       "id": "sport-table-tennis",
       "description": "Image for table tennis.",
-      "imageUrl": "https://picsum.photos/seed/pingpong/600/400",
+      "imageUrl": "/images/Table_Tennis.jpg",
       "imageHint": "ping pong"
     },
     {
       "id": "sport-kabaddi",
       "description": "Image for kabaddi.",
-      "imageUrl": "https://picsum.photos/seed/kabaddimatch/600/400",
+      "imageUrl": "/images/Kabaddi.jpg",
       "imageHint": "kabaddi tackle"
     },
     {
       "id": "sport-archery",
       "description": "Image for archery.",
-      "imageUrl": "https://picsum.photos/seed/bowarrow/600/400",
+      "imageUrl": "/images/Archery.jpg",
       "imageHint": "arrow target"
     },
     {
       "id": "sport-boxing",
       "description": "Image for boxing.",
-      "imageUrl": "https://picsum.photos/seed/boxingring/600/400",
+      "imageUrl": "/images/Boxing.jpg",
       "imageHint": "boxing gloves"
     },
     {
       "id": "sport-chess",
       "description": "Image for chess.",
-      "imageUrl": "https://picsum.photos/seed/chessboard/600/400",
+      "imageUrl": "/images/Chess.jpg",
       "imageHint": "chess pieces"
     },
     {
       "id": "sport-esports",
       "description": "Image for e-sports.",
-      "imageUrl": "https://picsum.photos/seed/gaming/600/400",
+      "imageUrl": "/images/Ea_sports.jpg",
       "imageHint": "esports arena"
     },
     {
       "id": "event-marathon",
       "description": "Image for the annual marathon.",
-      "imageUrl": "https://picsum.photos/seed/finishline/600/400",
+      "imageUrl": "/images/Marathon.jpg",
       "imageHint": "marathon runners"
     },
     {
       "id": "event-inter-college-football",
       "description": "Image for the inter-college football tournament.",
-      "imageUrl": "https://picsum.photos/seed/footballpitch/600/400",
+      "imageUrl": "/images/Football.jpg",
       "imageHint": "football goal"
     },
     {
       "id": "event-hackathon",
       "description": "Image for the annual hackathon.",
-      "imageUrl": "https://picsum.photos/seed/computers/600/400",
+      "imageUrl": "/images/Computer.jpg",
       "imageHint": "team coding"
     },
     {
       "id": "event-swimming-gala",
       "description": "Image for the swimming gala.",
-      "imageUrl": "https://picsum.photos/seed/swimmingrace/600/400",
+      "imageUrl": "/images/Swimming.jpg",
       "imageHint": "swimming race"
     },
     {
       "id": "event-cricket-league",
       "description": "Image for the cricket league.",
-      "imageUrl": "https://picsum.photos/seed/cricketmatch/600/400",
+      "imageUrl": "/images/Cricket.jpg",
       "imageHint": "cricket players"
     }
   ]

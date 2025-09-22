@@ -19,16 +19,14 @@ export function LoginForm() {
     e.preventDefault();
     setError('');
 
-    if (!rollNo || !password) {
-      setError('Please enter both Roll No and Password.');
-      return;
+   if (password === 'password') {
+      if (typeof window !== 'undefined') {
+          localStorage.setItem('studentRollNo', rollNo);
+      }
+      router.push('/dashboard');
+    } else {
+      setError('Invalid Roll No or Password.');
     }
-    
-    if (typeof window !== 'undefined') {
-        localStorage.setItem('studentRollNo', rollNo);
-    }
-
-    router.push('/dashboard');
   };
 
   return (
@@ -56,7 +54,7 @@ export function LoginForm() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="••••••••"
+              placeholder="******"
               required
             />
           </div>
