@@ -10,9 +10,12 @@ export default function LoginPage() {
     <main className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
       <div className="flex flex-col items-center justify-center p-8 lg:p-12">
         <div className="w-full max-w-md space-y-6">
-          <div className="flex items-center justify-center space-x-3">
-            <Dumbbell className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold tracking-tight">Sports Department</h1>
+          <div className="flex flex-col items-center justify-center space-y-1">
+            <div className="flex items-center space-x-3">
+              <Dumbbell className="h-8 w-8 text-primary" />
+              <h1 className="text-3xl font-bold tracking-tight">Sports Department</h1>
+            </div>
+            <p className="text-sm text-muted-foreground">MES ABASAHEB GARWARE</p>
           </div>
           <LoginForm />
         </div>

@@ -18,12 +18,15 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
-        <Link href="/dashboard" className="mr-6 flex items-center space-x-2">
-          <Dumbbell className="h-6 w-6 text-primary" />
-          <span className="font-bold sm:inline-block">
-            Sports Department
-          </span>
+      <div className="container flex h-20 items-center">
+        <Link href="/dashboard" className="mr-6 flex items-center space-x-3">
+          <Dumbbell className="h-8 w-8 text-primary" />
+          <div className="flex flex-col">
+            <span className="font-bold sm:inline-block text-lg">
+              Sports Department
+            </span>
+            <span className="text-xs text-muted-foreground">MES ABASAHEB GARWARE</span>
+          </div>
         </Link>
         <NavLinks />
         <div className="flex flex-1 items-center justify-end space-x-2">
