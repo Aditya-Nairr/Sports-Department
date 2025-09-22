@@ -22,7 +22,7 @@ export function Header() {
         <Link href="/dashboard" className="mr-6 flex items-center space-x-2">
           <Dumbbell className="h-6 w-6 text-primary" />
           <span className="font-bold sm:inline-block">
-            Spartan Scoreboard
+            Sports Department
           </span>
         </Link>
         <NavLinks />

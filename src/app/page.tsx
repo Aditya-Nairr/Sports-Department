@@ -12,7 +12,7 @@ export default function LoginPage() {
         <div className="w-full max-w-md space-y-6">
           <div className="flex items-center justify-center space-x-3">
             <Dumbbell className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold tracking-tight">Spartan Scoreboard</h1>
+            <h1 className="text-3xl font-bold tracking-tight">Sports Department</h1>
           </div>
           <LoginForm />
         </div>
