@@ -22,7 +22,7 @@ export function StatCard({ title, value, icon, description, isProfile = false }:
     }, [isProfile]);
 
   return (
-    <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+    <Card className="transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-sm font-medium">{title}</CardTitle>
         {icon}

@@ -2,15 +2,15 @@
   "placeholderImages": [
     {
       "id": "login-bg",
-      "description": "Background image for the login page showing a stadium.",
+      "description": "A group of diverse athletes looking determined.",
       "imageUrl": "https://picsum.photos/seed/loginbg/1920/1080",
-      "imageHint": "stadium sport"
+      "imageHint": "athletes team"
     },
     {
       "id": "dashboard-bg",
-      "description": "Background image for the dashboard page showing athletes.",
+      "description": "An epic, wide shot of a modern, vibrant stadium under bright lights.",
       "imageUrl": "https://picsum.photos/seed/dashbg/1920/1080",
-      "imageHint": "athletes running"
+      "imageHint": "stadium lights"
     },
     {
       "id": "sport-basketball",

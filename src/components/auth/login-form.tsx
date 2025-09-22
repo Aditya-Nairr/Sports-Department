@@ -32,9 +32,9 @@ export function LoginForm() {
   };
 
   return (
-    <Card>
+    <Card className="shadow-2xl">
       <CardHeader className="text-center">
-        <CardTitle className="text-2xl font-bold">Spartan Scoreboard</CardTitle>
+        <CardTitle className="text-2xl font-bold">Welcome Back!</CardTitle>
         <CardDescription>Enter your credentials to access your dashboard</CardDescription>
       </CardHeader>
       <form onSubmit={handleLogin}>
@@ -56,6 +56,7 @@ export function LoginForm() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              placeholder="••••••••"
               required
             />
           </div>
