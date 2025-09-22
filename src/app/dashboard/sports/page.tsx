@@ -11,8 +11,10 @@ export default function SportsPage() {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {sports.map((sport) => (
-          <SportCard key={sport.id} sport={sport} />
+        {sports.map((sport, index) => (
+          <div key={sport.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
+            <SportCard sport={sport} />
+          </div>
         ))}
       </div>
     </div>

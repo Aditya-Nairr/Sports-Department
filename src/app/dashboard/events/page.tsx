@@ -11,8 +11,10 @@ export default function EventsPage() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {events.map((event) => (
-          <EventCard key={event.id} event={event} />
+        {events.map((event, index) => (
+          <div key={event.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
+            <EventCard event={event} />
+          </div>
         ))}
       </div>
     </div>

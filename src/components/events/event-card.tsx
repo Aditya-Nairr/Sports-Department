@@ -11,7 +11,7 @@ type EventCardProps = {
 
 export function EventCard({ event }: EventCardProps) {
   return (
-    <Card className="h-full flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl">
+    <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
         <div className="relative h-48 w-full">
         <Image
             src={event.imageUrl}
@@ -29,7 +29,7 @@ export function EventCard({ event }: EventCardProps) {
             <CardDescription>{event.description}</CardDescription>
         </CardContent>
         <CardFooter>
-            <Button asChild className="w-full">
+            <Button asChild className="w-full transition-transform duration-300 hover:scale-105">
                 <Link href={`/dashboard/events/apply/${event.id}`}>
                     Apply Now <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
